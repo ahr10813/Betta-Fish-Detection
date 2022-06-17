@@ -1,4 +1,4 @@
-# Android Currency Detector App using TensorFlow Lite image classification
+# Betta Fish Detection App using TensorFlow Lite image classification
 
 ## Overview
 
