@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.tensorflow.lite.examples.classification">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ssb"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ssb"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
+            android:name=".MidAct6"
+            android:exported="false" />
+        <activity
+            android:name=".MidAct5"
+            android:exported="false" />
+        <activity
+            android:name=".MidAct4"
+            android:exported="false" />
+        <activity
+            android:name=".MidAct3"
+            android:exported="false" />
+        <activity
+            android:name=".MidAct2"
+            android:exported="false" />
+        <activity
+            android:name=".MidAct1"
+            android:exported="false" />
+        <activity
+            android:name=".health"
+            android:exported="false" />
+        <activity
+            android:name=".history_four"
+            android:exported="false" />
+        <activity
+            android:name=".history_three"
+            android:exported="false" />
+        <activity
+            android:name=".history_two"
+            android:exported="false" />
+        <activity
+            android:name=".history_one"
+            android:exported="false" />
+        <activity
+            android:name=".Tip"
+            android:exported="false" />
+        <activity
+            android:name=".History"
+            android:exported="false" />
+        <activity
+            android:name=".Doubletail"
+            android:exported="false" />
+        <activity
+            android:name=".Veiltail"
+            android:exported="false" />
+        <activity
+            android:name=".Spadetail"
+            android:exported="false" />
+        <activity
+            android:name=".Plakat"
+            android:exported="false" />
+        <activity
+            android:name=".Halfmoon"
+            android:exported="false" />
+        <activity
+            android:name=".Halfsun"
+            android:exported="false" />
+        <activity
+            android:name=".Deltatail"
+            android:exported="false" />
+        <activity
+            android:name=".Rosetail"
+            android:exported="false" />
+        <activity
+            android:name=".Crowntail"
+            android:exported="false" />
+        <activity
+            android:name=".Tips"
+            android:exported="false" />
+        <activity
+            android:name=".Types"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Gender"
+            android:exported="false" />
+        <activity
+            android:name=".ClassifierActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassMale1"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassMale2"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassMale3"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassMale4"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ClassMale5"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
